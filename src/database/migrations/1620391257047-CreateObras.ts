@@ -24,6 +24,10 @@ export class CreateObras1620391257047 implements MigrationInterface {
                     type: "varchar"
                 },
                 {
+                    name: "autores",
+                    type: "varchar"
+                },
+                {
                     name: "created_at",
                     type: "timestamp",
                     default: "now()"

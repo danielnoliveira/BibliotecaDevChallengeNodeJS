@@ -15,6 +15,9 @@ class Obras {
   
   @Column()
   foto: string;
+
+  @Column()
+  autores: string;
   
   @CreateDateColumn()
   created_at: Date;
